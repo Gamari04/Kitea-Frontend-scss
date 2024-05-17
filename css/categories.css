@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1216px;
+  margin: auto;
+}
+
+.top-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-header-left {
+  display: flex;
+  gap: 30px;
+}
+.top-header-left p {
+  color: black;
+}
+.top-header-right p {
+  color: black;
+}
+
+.icone {
+  color: red;
+  margin-right: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.navbar-links {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  font-size: 15px;
+}
+.navbar-links-link {
+  color: black;
+  text-decoration: none;
+}
+.navbar-links-link:hover {
+  color: red;
+}
+.navbar-button-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.red-line {
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  margin-top: 13px;
+}
+
+.hero-section {
+  margin-top: 30px;
+}
+.hero-section-img {
+  max-width: 1216px;
+  height: 570px;
+}
+.hero-section h4 {
+  color: #9c9999;
+  text-align: center;
+  margin-top: 60px;
+}
+.hero-section-title {
+  text-align: center;
+  font-size: 300;
+  margin-top: 50px;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+.hero-section p {
+  margin-top: 60px;
+  color: #9c9999;
+  text-align: center;
+}
+
+.rooms {
+  margin-top: 40px;
+}
+.rooms-images {
+  display: flex;
+  gap: 32px;
+}
+.rooms-images-img1 {
+  width: 768px;
+  height: 368px;
+}
+.rooms-images-img2 {
+  width: 368px;
+  height: 368px;
+}
+
+.lorem {
+  margin-top: 50px;
+}
+.lorem-parag {
+  margin: 30px;
+}
+.lorem-parag h5 {
+  color: #7d7b7b;
+}
+.lorem-parag p {
+  color: #a09c9c;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footer .culomn1-line {
+  width: 200px;
+  height: 1px;
+  background-color: #c6c0c0;
+  margin-top: 30px;
+}
+.footer .culomn1-contact {
+  margin-top: 25px;
+}
+.footer .culomn1-icone {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.footer .culomn2-line {
+  width: 40px;
+  height: 3px;
+  background-color: red;
+  margin-top: 13px;
+}
+.footer .culomn2 a {
+  color: #494848;
+}
+.footer .culomn2-links {
+  margin-top: 20px;
+}
+.footer .culomn2-links li {
+  margin-bottom: 20px;
+}
+.footer .culomn3 {
+  width: 488px;
+  height: 281px;
+}
+
+.border-b {
+  position: relative;
+}
+
+.border-b::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}/*# sourceMappingURL=categories.css.map */
